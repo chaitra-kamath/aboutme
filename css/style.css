@@ -1,0 +1,212 @@
+body, html{
+	min-height: 100%;
+}
+/*.background{
+	background-image: url(../img/bigBend.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.background:after{
+	content: "";
+	background-image: url(../img/bigBend.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.65;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 50%;
+	position: absolute;
+	z-index: -1;
+}
+
+.intro{
+	color: #f0f0f0;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	margin-top: 0px;
+}
+.intro h4{
+	font-size: 30px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);	
+	margin-top: 0px; /*override parent property*/
+}
+.intro h1{
+	font-size: 70px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+	margin-bottom: 0px;
+
+}
+.intro p{
+	font-size: 10px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+}
+.intro h3{
+	font-size: 30px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+.intro hr{
+	border: none;
+	background-color: white;
+}
+
+
+.leftHeading{
+	font-size: 20px;
+	font-weight: 700;
+	float: left;
+}
+.rightDescription{
+	margin-left: 10%;
+	margin-bottom: 50px;
+	padding-bottom: 5px;
+}
+
+
+.text{
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 5px;
+}
+.text hr{
+	border: none;
+	margin-top: 5px;
+	float: left;
+}
+
+
+.about hr{
+	background-color: rgb(135,206,250);
+}
+.about .rightDescription{
+	padding-left: 4%; /*add more property to only 'about' section's rightDescription*/
+}
+
+
+.experience .background{
+	background-color: rgb(135, 206, 250);
+	width: 100%;
+	border-radius: 5px;
+	display: inline-grid;
+}
+.experience .leftHeading{
+	padding-top: 30px;
+	padding-left: 5px;
+}
+.experience hr{
+	background-color: white;
+}
+.experience .rightDescription{
+	padding-top: 2px;
+}
+
+.experience .rightDescription ul li{
+	list-style-type: none;
+	border: 1px solid white; 
+	border-radius: 5px;
+	padding: 0px 0px 10px 10px; 
+	margin:10px;
+}
+.rightDescription a{
+	text-decoration: none;
+	color: inherit;
+}
+.rightDescription h3{
+	font-size: 30px;
+	border-bottom: 3px solid white;
+	display: inline-block;
+	margin-bottom: 7px;
+}
+ul li #company{
+	margin-top: 7px; 
+}
+ul li #duration{
+	font-size:15px;
+	padding: 0px; 
+	margin-top: 0px; 
+}
+ul li #jobTitle{
+	font-size: 25px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+
+.skillset{
+	padding-bottom: 200px;
+}
+.skillset hr{
+	background-color: rgb(135,206,250);
+}
+.skillset .leftHeading{
+	margin-top: 20px;
+}
+.skillset .rightDescription p{
+	font-weight: 600;
+}
+.left-wrapper{
+	float: left;
+	width: 50%;
+}
+.right-wrapper{
+	float: right;
+	width: 50%;
+}
+.progress-bar{
+	width: 80%;
+	background-color: #e0e0e0;
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.progress-bar-fill{
+	display: block;
+	height: 22px;
+	background-color: rgb(135,206,250);
+	border-radius: 3px;
+	transition: width 1s ease-in-out;
+
+}
+
+
+.education {
+	background-color: rgb(135, 206, 250);
+	border-radius: 5px;
+	padding: 50px;
+}
+
+.education hr{
+	background-color: white;
+}
+.education .leftHeading{
+	margin-left: -45px;
+	margin-top: -30px;
+}
+.education .rightDescription ul{
+	margin-top: -30px;
+	margin-bottom: -60px;
+}
+.education .rightDescription ul li{
+	list-style-type: none;
+}
+.education .rightDescription ul li h3{
+	margin-top: 5px;
+}
+#school{
+	font-size: 20px;
+}
+
+
+.contact {
+	margin-top: 50px;
+}
+.contact .leftHeading hr{
+	background-color: rgb(135, 206, 250);
+}
+.contact .leftHeading{
+	margin-top: 10px;
+}
+.contact .rightDescription h3{
+	margin: 10px 0px 0px 80px;
+}
